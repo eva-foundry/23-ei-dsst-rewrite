@@ -1,0 +1,125 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T11:55:52.908Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F23",
+  "features": [
+    {
+      "id": "F23-01",
+      "title": "Overview",
+      "source_heading": "## Feature: Overview [ID=F23-01]",
+      "stories": []
+    },
+    {
+      "id": "F23-02",
+      "title": "System Background",
+      "source_heading": "## Feature: System Background [ID=F23-02]",
+      "stories": []
+    },
+    {
+      "id": "F23-03",
+      "title": "Key Findings",
+      "source_heading": "## Feature: Key Findings [ID=F23-03]",
+      "stories": [
+        {
+          "id": "F23-03-001",
+          "title": "Technology Stack",
+          "feature_id": "F23-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F23-03-002",
+          "title": "Critical Challenges",
+          "feature_id": "F23-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F23-04",
+      "title": "Project Artifacts",
+      "source_heading": "## Feature: Project Artifacts [ID=F23-04]",
+      "stories": []
+    },
+    {
+      "id": "F23-05",
+      "title": "Discovery Sources",
+      "source_heading": "## Feature: Discovery Sources [ID=F23-05]",
+      "stories": []
+    },
+    {
+      "id": "F23-06",
+      "title": "Scope Definition",
+      "source_heading": "## Feature: Scope Definition [ID=F23-06]",
+      "stories": [
+        {
+          "id": "F23-06-001",
+          "title": "In Scope (Phase 1 - 6 months)",
+          "feature_id": "F23-06",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F23-06-002",
+          "title": "Out of Scope (Future Phases)",
+          "feature_id": "F23-06",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F23-07",
+      "title": "Success Criteria",
+      "source_heading": "## Feature: Success Criteria [ID=F23-07]",
+      "stories": []
+    },
+    {
+      "id": "F23-08",
+      "title": "Team Structure",
+      "source_heading": "## Feature: Team Structure [ID=F23-08]",
+      "stories": []
+    },
+    {
+      "id": "F23-09",
+      "title": "Timeline",
+      "source_heading": "## Feature: Timeline [ID=F23-09]",
+      "stories": []
+    },
+    {
+      "id": "F23-10",
+      "title": "Stakeholders",
+      "source_heading": "## Feature: Stakeholders [ID=F23-10]",
+      "stories": []
+    },
+    {
+      "id": "F23-11",
+      "title": "Related Systems",
+      "source_heading": "## Feature: Related Systems [ID=F23-11]",
+      "stories": []
+    },
+    {
+      "id": "F23-12",
+      "title": "Risk Register",
+      "source_heading": "## Feature: Risk Register [ID=F23-12]",
+      "stories": []
+    },
+    {
+      "id": "F23-13",
+      "title": "Next Steps",
+      "source_heading": "## Feature: Next Steps [ID=F23-13]",
+      "stories": []
+    },
+    {
+      "id": "F23-14",
+      "title": "Contact",
+      "source_heading": "## Feature: Contact [ID=F23-14]",
+      "stories": []
+    }
+  ]
+}

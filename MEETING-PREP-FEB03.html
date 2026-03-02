@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MEETING-PREP-FEB03</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="meeting-prep-adms-ei-sst-modernization-github-copilot-poc">Meeting Prep: ADMS-EI-SST Modernization &amp; GitHub Copilot PoC</h1>
+<p><strong>Meeting</strong>: AI model capabilities - ADMS-EI-SST Rewrite<br />
+<strong>Date</strong>: February 3, 2026, 1:05 PM–2:00 PM (ET)<br />
+<strong>Prepared By</strong>: Marco Presta, AICOE<br />
+<strong>Last Updated</strong>: February 2, 2026</p>
+<hr />
+<h2 id="second-pitch">30-Second Pitch</h2>
+<p>ADMS-EI-SST is a <strong>hybrid Oracle Forms 12c system</strong> (not pure web) with critical EOL risks. We propose a <strong>6-month GitHub Copilot PoC</strong> targeting <strong>Employee Maintenance module</strong> to demonstrate 33% faster development, functional parity, and foundation for multi-year modernization.</p>
+<p><strong>Critical Success Factor</strong>: Complete <strong>Phase 0 “Repo Truth Sprint”</strong> (1-2 weeks) to establish source code baseline BEFORE development begins.</p>
+<hr />
+<h2 id="meeting-agenda-55-minutes">Meeting Agenda (55 minutes)</h2>
+<ol type="1">
+<li><strong>System Understanding</strong> (10 min) - Validate our architecture analysis</li>
+<li><strong>Critical Open Questions</strong> (15 min) - 5 questions requiring stakeholder input</li>
+<li><strong>PoC Scope &amp; Timeline</strong> (20 min) - Employee Maintenance module, 6-month roadmap</li>
+<li><strong>Next Steps</strong> (10 min) - Phase 0 initiation, access provisioning</li>
+</ol>
+<hr />
+<h2 id="section-1-system-understanding-to-validate">SECTION 1: System Understanding (To Validate)</h2>
+<h3 id="architecture-summary">Architecture Summary</h3>
+<p><strong>Our Understanding</strong> (from <a href="SA-CONTEXT.md">SA-CONTEXT.md</a> + <a href="ARCHITECTURE.md">ARCHITECTURE.md</a>):</p>
+<pre><code>Users → Browser (AD_Login) → Authentication → Launch Oracle Forms Runtime (JRE)
+                                               └─ Forms 12c on RHEL 7
+                                                  └─ Oracle 19c DB (ADMSSST) on AIX
+Supporting:
+├─ ASP.NET Web Apps (login/help/lookup) on Windows 2016
+├─ Atrium Data Exchanger (Windows Service) → SQL Server 2016
+├─ CCIS integration (Oracle 19c)
+└─ Cognos 11 reporting (ADMSR database)</code></pre>
+<p><strong>Questions</strong>: - ✅ Is this architecture accurate? - ✅ Are versions correct (RHEL 7, Oracle 19c, Windows 2016)? - ✅ Forms client = JRE-based or thick client install?</p>
+<h3 id="end-of-life-risks">End-of-Life Risks</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Technology</th>
+<th>Version</th>
+<th>EOL Status</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>RHEL 7</strong></td>
+<td>7.x</td>
+<td>⚠️ <strong>EOL June 2024</strong></td>
+<td>Forms server unsupported</td>
+</tr>
+<tr class="even">
+<td><strong>Oracle Forms</strong></td>
+<td>12c</td>
+<td>⚠️ <strong>Mainstream ends 2027</strong></td>
+<td>Critical driver</td>
+</tr>
+<tr class="odd">
+<td><strong>Windows 2016</strong></td>
+<td>2016</td>
+<td>⚠️ <strong>Mainstream ended 2022</strong></td>
+<td>Web apps aging</td>
+</tr>
+<tr class="even">
+<td><strong>IBM AIX</strong></td>
+<td>?</td>
+<td>⚠️ <strong>Legacy platform</strong></td>
+<td>Skills declining</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Question</strong>: Organization’s risk posture on these EOL timelines?</p>
+<hr />
+<h2 id="section-2-critical-open-questions-must-resolve">SECTION 2: Critical Open Questions ⚠️ MUST RESOLVE</h2>
+<h3 id="q1-repository-baseline-highest-priority">Q1: Repository Baseline (HIGHEST PRIORITY)</h3>
+<p><strong>Current Status</strong> (from <a href="SA-CONTEXT.md">SA-CONTEXT.md</a>): &gt; “Oracle Forms code exists in <strong>DEV - Repos</strong>”<br />
+&gt; “<strong>Caveat</strong>: It is not clear which files are the latest version”</p>
+<p><strong>Impact</strong>: Without authoritative baseline: - ❌ PoC sizing unreliable - ❌ Business logic extraction blocked - ❌ CI/CD impossible</p>
+<p><strong>Questions</strong>: 1. Where is authoritative Oracle Forms source? 2. Current branching strategy (main/develop/release)? 3. Are release tags present? Current production version? 4. Who are code owners for Employee Maintenance module? 5. Build/deployment process?</p>
+<p><strong>Proposed Resolution</strong>: <strong>Phase 0 “Repo Truth Sprint” (1-2 weeks)</strong></p>
+<hr />
+<h3 id="q2-business-logic-distribution">Q2: Business Logic Distribution</h3>
+<p><strong>Hypothesis</strong> (from <a href="SA-CONTEXT.md">SA-CONTEXT.md</a>): - Forms triggers (WHEN-VALIDATE-ITEM, KEY-COMMIT, etc.) - PL/SQL packages/procedures - DB triggers, constraints, defaults - Implicit transaction/locking semantics</p>
+<p><strong>Questions</strong>: 1. For <strong>Employee Maintenance</strong> specifically, where does logic reside? 2. Are business rules documented separately? 3. Logic distribution estimate: Forms vs. PL/SQL vs. DB? (%) 4. Integration points with other modules?</p>
+<p><strong>Resolution</strong>: Logic inventory workshop (2-3 days in Month 1)</p>
+<hr />
+<h3 id="q3-testing-parity">Q3: Testing &amp; Parity</h3>
+<p><strong>Gap</strong> (from <a href="SA-CONTEXT.md">SA-CONTEXT.md</a>): &gt; “Oracle Forms behavior is the ‘spec.’ Without regression harness: parity cannot be demonstrated”</p>
+<p><strong>Questions</strong>: 1. Test suite exists for Employee Maintenance? 2. How is regression testing done today? 3. Acceptance criteria for “functional parity”? 4. Who validates PoC parity? (UAT team: 10-15 Team Leaders)</p>
+<p><strong>Resolution</strong>: Capture Forms behavior as baseline (screen recordings, validation rules)</p>
+<hr />
+<h3 id="q4-integration-contracts">Q4: Integration Contracts</h3>
+<p><strong>Known Integrations</strong> (from <a href="ARCHITECTURE.md">ARCHITECTURE.md</a>): - Atrium (HR sync via Data Exchanger) - CCIS (case info, likely DB links) - Active Directory (APPS-ADMS-EI) - Cognos (IRIS reporting)</p>
+<p><strong>Questions</strong>: 1. Which integrations critical for Employee Maintenance PoC? 2. Integration contracts documented? 3. Test against integration systems in dev/UAT? 4. Rollback process if integration breaks?</p>
+<p><strong>Resolution</strong>: Map integration touch points, document contracts (pre-PoC)</p>
+<hr />
+<h3 id="q5-access-provisioning-timeline">Q5: Access Provisioning Timeline</h3>
+<p><strong>Requirements</strong>: - Repository access (DEV - Repos) - Database profiles (ADMSSST, ADMSR) - JRE installation (via NSD) - Active Directory (APPS-ADMS-EI) - UAT environment (<code>https://intradev16-u.intra.dev/AS-SA/AD_Login/</code>)</p>
+<p><strong>Questions</strong>: 1. Access provisioning turnaround time? (NSD ticket) 2. PoC team can access production (read-only)? 3. Security clearance requirements? 4. Microsoft DevBox or standard workstations?</p>
+<p><strong>Resolution</strong>: Submit access requests Week 1 of Phase 0</p>
+<hr />
+<h2 id="section-3-poc-scope-roadmap">SECTION 3: PoC Scope &amp; Roadmap</h2>
+<h3 id="why-employee-maintenance-module">Why Employee Maintenance Module?</h3>
+<p><strong>Rationale</strong> (from <a href="EPICS-AND-STORIES.md">EPICS-AND-STORIES.md</a>): 1. ✅ <strong>Well Documented</strong>: 36 user stories from online help v6.0 2. ✅ <strong>Clear CRUD</strong>: Employee profile management 3. ✅ <strong>Exercises RBAC</strong>: Profile types, hierarchical permissions 4. ✅ <strong>Lower Risk</strong>: Admin vs. case management 5. ✅ <strong>Testable</strong>: 10-15 Team Leaders for UAT</p>
+<p><strong>Coverage</strong>: 10 epics, 36 user stories, ~123 story points</p>
+<h3 id="month-roadmap">6-Month Roadmap</h3>
+<h4 id="phase-0-repo-truth-sprint-weeks-1-2-prerequisite"><strong>Phase 0: Repo Truth Sprint (Weeks 1-2)</strong> ⚠️ PREREQUISITE</h4>
+<p><strong>Deliverables</strong>: - ✅ Authoritative source confirmed - ✅ Build/run instructions - ✅ Code owners identified - ✅ Architecture validated - ✅ Access provisioning complete</p>
+<p><strong>Exit Criteria</strong>: Can build Employee Maintenance from source</p>
+<hr />
+<h4 id="month-1-2-discovery-foundation"><strong>Month 1-2: Discovery &amp; Foundation</strong></h4>
+<p><strong>Deliverables</strong>: 1. Business Logic Inventory (Forms/PL-SQL/DB mapping) 2. Parity Test Baseline (expected behavior matrix) 3. Modern Architecture Design (.NET Core 8 + React) 4. Dev Environment Setup (CI/CD pipeline)</p>
+<hr />
+<h4 id="month-3-4-poc-build"><strong>Month 3-4: PoC Build</strong></h4>
+<p><strong>Deliverables</strong>: 1. Backend API (.NET Core 8 with Entity Framework) 2. Frontend UI (React + TypeScript, bilingual) 3. Database Layer (Repository pattern) 4. Integration Testing (xUnit, Playwright)</p>
+<hr />
+<h4 id="month-5-6-hardening-uat"><strong>Month 5-6: Hardening &amp; UAT</strong></h4>
+<p><strong>Deliverables</strong>: 1. Security Hardening (OWASP, pen testing) 2. Performance Testing (load, stress) 3. UAT with 10-15 Team Leaders 4. Production Readiness</p>
+<hr />
+<h3 id="explicit-non-goals-6-months">Explicit Non-Goals (6 Months)</h3>
+<p>❌ <strong>NOT in scope</strong>: - Reconsideration module - SST-GD/SST-AD modules - Reporting platform replacement - Database migration off Oracle - Decommissioning Forms</p>
+<p>✅ <strong>IN scope</strong>: - Employee Maintenance only - Foundation architecture (reusable) - Modernization feasibility proof - GitHub Copilot productivity gains</p>
+<hr />
+<h2 id="section-4-github-copilot-value">SECTION 4: GitHub Copilot Value</h2>
+<h3 id="what-copilot-is-is-not">What Copilot IS &amp; IS NOT</h3>
+<p><strong>Copilot IS</strong>: - ✅ Productivity amplifier (boilerplate, tests, docs) - ✅ Pattern recognition for standard code</p>
+<p><strong>Copilot IS NOT</strong>: - ❌ Architecture replacement (we still analyze) - ❌ Security guarantee (human review required) - ❌ Forms logic extractor (we do that manually)</p>
+<h3 id="expected-productivity-gains">Expected Productivity Gains</h3>
+<p><strong>Conservative Estimates</strong>: - Code generation: 30-40% faster - Documentation: 50% faster - Test writing: 40% faster - <strong>Overall: 33% faster</strong> (123 SP in 8 weeks vs 12 traditional)</p>
+<h3 id="governance-safety">Governance &amp; Safety</h3>
+<p><strong>Mandatory Controls</strong>: 1. Human review of all AI suggestions 2. Automated security scanning (SAST) 3. No sensitive data in prompts 4. Developers own code, not AI 5. All code must pass tests</p>
+<hr />
+<h2 id="section-5-risks-mitigations">SECTION 5: Risks &amp; Mitigations</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Likelihood</th>
+<th>Impact</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hidden Forms logic</strong></td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>Phase 0 inventory + parity tests</td>
+</tr>
+<tr class="even">
+<td><strong>Repo ambiguity</strong></td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>Repo Truth Sprint (Weeks 1-2)</td>
+</tr>
+<tr class="odd">
+<td><strong>Security vulns</strong></td>
+<td>MED</td>
+<td>HIGH</td>
+<td>Review + SAST + pen test</td>
+</tr>
+<tr class="even">
+<td><strong>Integration breaks</strong></td>
+<td>MED</td>
+<td>MED</td>
+<td>Contract mapping + test env</td>
+</tr>
+<tr class="odd">
+<td><strong>Scope creep</strong></td>
+<td>HIGH</td>
+<td>MED</td>
+<td>Strict definition + change control</td>
+</tr>
+<tr class="even">
+<td><strong>Access delays</strong></td>
+<td>MED</td>
+<td>LOW</td>
+<td>Pre-provision in Phase 0</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="section-6-success-criteria-measurable">SECTION 6: Success Criteria (Measurable)</h2>
+<h3 id="functional-success">Functional Success</h3>
+<ul>
+<li>✅ 36 user stories with parity</li>
+<li>✅ Validation rules preserved</li>
+<li>✅ Error codes maintained (ADMS 828)</li>
+<li>✅ Bilingual (English/French)</li>
+</ul>
+<h3 id="quality-success">Quality Success</h3>
+<ul>
+<li>✅ 80% code coverage</li>
+<li>✅ Zero high-severity vulns</li>
+<li>✅ WCAG 2.1 Level AA</li>
+<li>✅ &lt;2 second load time (95th percentile)</li>
+</ul>
+<h3 id="uat-success">UAT Success</h3>
+<ul>
+<li>✅ 80%+ user satisfaction</li>
+<li>✅ 10-15 Team Leaders complete UAT</li>
+<li>✅ Business sign-off</li>
+</ul>
+<h3 id="productivity-success">Productivity Success</h3>
+<ul>
+<li>✅ 33% faster development</li>
+<li>✅ Measurable Copilot contribution</li>
+<li>✅ Developer satisfaction</li>
+</ul>
+<hr />
+<h2 id="section-7-next-steps">SECTION 7: Next Steps</h2>
+<h3 id="from-stakeholders-needed">From Stakeholders (NEEDED):</h3>
+<ol type="1">
+<li>✅ Confirm repo location &amp; access</li>
+<li>✅ Provide architecture diagram (if exists)</li>
+<li>✅ Identify Employee Maintenance code owners</li>
+<li>✅ Confirm UAT team (10-15 Team Leaders)</li>
+<li>✅ Approve Phase 0 (Weeks 1-2)</li>
+</ol>
+<h3 id="from-aicoe-committed">From AICOE (COMMITTED):</h3>
+<ol type="1">
+<li>✅ Initiate access provisioning</li>
+<li>✅ Schedule Phase 0 kickoff</li>
+<li>✅ Assemble PoC team (8-10 people)</li>
+<li>✅ Prepare Phase 0 work plan</li>
+</ol>
+<h3 id="follow-up-meetings">Follow-Up Meetings</h3>
+<ul>
+<li><strong>Week 2 (Feb 10)</strong>: Phase 0 progress (30 min)</li>
+<li><strong>Week 4 (Feb 24)</strong>: Phase 0 completion (1 hour)</li>
+<li><strong>Week 8 (Mar 23)</strong>: Month 1-2 demo (1 hour)</li>
+<li><strong>Week 16 (May 18)</strong>: Month 3-4 PoC demo (1 hour)</li>
+<li><strong>Week 24 (Jul 13)</strong>: UAT readiness (1 hour)</li>
+<li><strong>Week 26 (Jul 27)</strong>: Final PoC presentation (2 hours)</li>
+</ul>
+<hr />
+<h2 id="section-8-discussion-questions">SECTION 8: Discussion Questions</h2>
+<h3 id="architecture-3-questions">Architecture (3 questions)</h3>
+<ol type="1">
+<li>Technology stack accurate? (RHEL 7, Oracle 19c, AIX)</li>
+<li>Undocumented systems/integrations?</li>
+<li>Current DR/HA strategy?</li>
+</ol>
+<h3 id="repository-3-questions">Repository (3 questions)</h3>
+<ol start="4" type="1">
+<li>Authoritative Forms source location?</li>
+<li>Release/branching strategy?</li>
+<li>Access production code (read-only)?</li>
+</ol>
+<h3 id="business-logic-3-questions">Business Logic (3 questions)</h3>
+<ol start="7" type="1">
+<li>Employee Maintenance logic: Forms/PL-SQL/DB split?</li>
+<li>Test suite exists?</li>
+<li>Regression testing process?</li>
+</ol>
+<h3 id="integration-3-questions">Integration (3 questions)</h3>
+<ol start="10" type="1">
+<li>Critical integrations for PoC?</li>
+<li>Integration contracts documented?</li>
+<li>Test in dev/UAT environments?</li>
+</ol>
+<h3 id="team-3-questions">Team (3 questions)</h3>
+<ol start="13" type="1">
+<li>Employee Maintenance SMEs?</li>
+<li>Access provisioning timeline?</li>
+<li>Security clearance requirements?</li>
+</ol>
+<h3 id="poc-scope-3-questions">PoC Scope (3 questions)</h3>
+<ol start="16" type="1">
+<li>6-month timeline aligns with priorities?</li>
+<li>Employee Maintenance = right choice?</li>
+<li>Success expectations at end of PoC?</li>
+</ol>
+<hr />
+<h2 id="appendix-reference-documents">Appendix: Reference Documents</h2>
+<h3 id="project-documentation">Project Documentation</h3>
+<ul>
+<li><strong><a href="README.md">README.md</a></strong>: Project overview</li>
+<li><strong><a href="ARCHITECTURE.md">ARCHITECTURE.md</a></strong>: Technical analysis (600 lines)</li>
+<li><strong><a href="SA-CONTEXT.md">SA-CONTEXT.md</a></strong>: Solution Architect perspective</li>
+<li><strong><a href="EPICS-AND-STORIES.md">EPICS-AND-STORIES.md</a></strong>: 36 user stories</li>
+<li><strong><a href=".github/copilot-instructions.md">.github/copilot-instructions.md</a></strong>: Dev patterns</li>
+</ul>
+<h3 id="external-resources">External Resources</h3>
+<ul>
+<li><strong>Online Help</strong>: https://intradev16-u.intra.dev/AS-SA/OnlineHelp_ADMS-EI-SST/ (v6.0)</li>
+<li><strong>UAT Environment</strong>: https://intradev16-u.intra.dev/AS-SA/AD_Login/</li>
+</ul>
+<h3 id="team-structure-proposed">Team Structure (Proposed)</h3>
+<ul>
+<li>2 Solution Architects</li>
+<li>4 Full-stack Developers</li>
+<li>2 QA Engineers</li>
+<li>1 DevOps Engineer</li>
+<li>1 Business Analyst</li>
+</ul>
+<hr />
+<h2 id="glossary">Glossary</h2>
+<ul>
+<li><strong>ADMS-EI-SST</strong>: Appeals Decision Management System</li>
+<li><strong>APC</strong>: Appeals Processing Centre</li>
+<li><strong>BEA</strong>: Business Expertise Advisor</li>
+<li><strong>SCBO</strong>: Service Canada Benefits Officer</li>
+<li><strong>SST-GD/AD</strong>: Social Security Tribunal General/Appeal Division</li>
+<li><strong>NHQ</strong>: National Headquarters</li>
+<li><strong>UAT</strong>: User Acceptance Testing</li>
+<li><strong>NSD</strong>: National Service Desk</li>
+</ul>
+<hr />
+<p><strong>Document Status</strong>: Ready for Feb 3, 2026 meeting<br />
+<strong>Next Review</strong>: Post-meeting (capture decisions)</p>
+</body>
+</html>

@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "schema": "eva.discovery.v2",
+    "generated_at": "2026-02-25T11:55:53.634Z",
+    "repo": "C:\\AICOE\\eva-foundation\\23-ei-dsst-rewrite"
+  },
+  "project": null,
+  "planned": {
+    "epic": {
+      "title": "Project 23: EI-DSST Rewrite (ADMS-EI-SST Modernization)",
+      "source": "README.md"
+    },
+    "features": [
+      {
+        "id": "F23-01",
+        "title": "Overview",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-02",
+        "title": "System Background",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-03",
+        "title": "Key Findings",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-04",
+        "title": "Project Artifacts",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-05",
+        "title": "Discovery Sources",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-06",
+        "title": "Scope Definition",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-07",
+        "title": "Success Criteria",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-08",
+        "title": "Team Structure",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-09",
+        "title": "Timeline",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-10",
+        "title": "Stakeholders",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-11",
+        "title": "Related Systems",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-12",
+        "title": "Risk Register",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-13",
+        "title": "Next Steps",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-14",
+        "title": "Contact",
+        "source": "veritas-plan.json"
+      }
+    ],
+    "stories": [
+      {
+        "id": "F23-03-001",
+        "title": "Technology Stack",
+        "feature_id": "F23-03",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-03-002",
+        "title": "Critical Challenges",
+        "feature_id": "F23-03",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-06-001",
+        "title": "In Scope (Phase 1 - 6 months)",
+        "feature_id": "F23-06",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F23-06-002",
+        "title": "Out of Scope (Future Phases)",
+        "feature_id": "F23-06",
+        "source": "veritas-plan.json"
+      }
+    ],
+    "tasks": [],
+    "acceptance": [],
+    "declared_status": {}
+  },
+  "actual": {
+    "artifacts": [
+      {
+        "path": ".gitignore",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "ARCHITECTURE.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "ARCHITECTURE.pdf",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "EPICS-AND-STORIES.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "EPICS-AND-STORIES.pdf",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "manifest.yml",
+        "type": "config",
+        "story_tags": [
+          "F23-03-001",
+          "F23-03-002",
+          "F23-06-001",
+          "F23-06-002"
+        ]
+      },
+      {
+        "path": "MEETING-PREP-FEB03.html",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "MEETING-PREP-FEB03.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "MEETING-PREP-FEB03.pdf",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "PLAN.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "README.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "SA-CONTEXT-cp-notes.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "SA-CONTEXT.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "SA-CONTEXT.pdf",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": ".github/.project07-compliance-report.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/.project07-deployment-report.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-instructions.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-skills/00-skill-index.skill.md",
+        "type": "doc",
+        "story_tags": []
+      }
+    ],
+    "story_artifact_map": {
+      "F23-03-001": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F23-03-001",
+              "F23-03-002",
+              "F23-06-001",
+              "F23-06-002"
+            ]
+          }
+        ]
+      },
+      "F23-03-002": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F23-03-001",
+              "F23-03-002",
+              "F23-06-001",
+              "F23-06-002"
+            ]
+          }
+        ]
+      },
+      "F23-06-001": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F23-03-001",
+              "F23-03-002",
+              "F23-06-001",
+              "F23-06-002"
+            ]
+          }
+        ]
+      },
+      "F23-06-002": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F23-03-001",
+              "F23-03-002",
+              "F23-06-001",
+              "F23-06-002"
+            ]
+          }
+        ]
+      }
+    },
+    "commit_evidence_map": {}
+  }
+}
