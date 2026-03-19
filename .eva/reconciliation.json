@@ -2,8 +2,8 @@
   "meta": {
     "schema": "eva.reconciliation.v2",
     "generated_at": "2026-02-25T11:55:53.655Z",
-    "repo": "C:\\AICOE\\eva-foundation\\23-ei-dsst-rewrite",
-    "discovery_path": "C:\\AICOE\\eva-foundation\\23-ei-dsst-rewrite\\.eva\\discovery.json"
+    "repo": "C:\\eva-foundry\\eva-foundation\\23-ei-dsst-rewrite",
+    "discovery_path": "C:\\eva-foundry\\eva-foundation\\23-ei-dsst-rewrite\\.eva\\discovery.json"
   },
   "coverage": {
     "stories_total": 4,

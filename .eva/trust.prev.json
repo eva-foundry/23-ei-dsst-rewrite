@@ -2,8 +2,8 @@
   "meta": {
     "schema": "eva.trust.v2",
     "generated_at": "2026-02-25T06:37:19.449Z",
-    "repo": "C:\\AICOE\\eva-foundation\\23-ei-dsst-rewrite",
-    "reconciliation_path": "C:\\AICOE\\eva-foundation\\23-ei-dsst-rewrite\\.eva\\reconciliation.json"
+    "repo": "C:\\eva-foundry\\eva-foundation\\23-ei-dsst-rewrite",
+    "reconciliation_path": "C:\\eva-foundry\\eva-foundation\\23-ei-dsst-rewrite\\.eva\\reconciliation.json"
   },
   "score": 0,
   "stale": false,

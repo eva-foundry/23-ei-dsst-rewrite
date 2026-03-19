@@ -1,5 +1,26 @@
 # Project 23: EI-DSST Rewrite (ADMS-EI-SST Modernization)
 
+<!-- eva-primed -->
+<!-- foundation-primer: 2026-03-03 by agent:copilot -->
+
+## EVA Ecosystem Integration
+
+| Tool | Purpose | How to Use |
+|------|---------|------------|
+| 37-data-model | Single source of truth for all project entities | GET http://localhost:8010/model/projects/23-ei-dsst-rewrite |
+| 29-foundry | Agentic capabilities (search, RAG, eval, observability) | C:\eva-foundry\eva-foundation\29-foundry |
+| 48-eva-veritas | Trust score and coverage audit | MCP tool: audit_repo / get_trust_score |
+| 07-foundation-layer | Copilot instructions primer + governance templates | MCP tool: apply_primer / audit_project |
+
+**Agent rule**: Query the data model API before reading source files.
+```powershell
+Invoke-RestMethod "http://localhost:8010/model/agent-guide"   # complete protocol
+Invoke-RestMethod "http://localhost:8010/model/agent-summary" # all layer counts
+```
+
+---
+
+
 **Project Start**: January 30, 2026  
 **Status**: Discovery Phase  
 **System**: Appeals Delivery and Management System - Employment Insurance - Social Security Tribunal (ADMS-EI-SST)
@@ -79,12 +100,12 @@ Analysis and modernization planning for the ADMS-EI-SST legacy system - a critic
 
 ## Success Criteria
 
-- ✅ One complete module (Employee Maintenance) production-ready
-- ✅ Modern architecture validated
-- ✅ 33% development time savings with GitHub Copilot
-- ✅ User acceptance testing with 10-15 Team Leaders
-- ✅ CI/CD pipeline operational
-- ✅ Documentation complete
+- ? One complete module (Employee Maintenance) production-ready
+- ? Modern architecture validated
+- ? 33% development time savings with GitHub Copilot
+- ? User acceptance testing with 10-15 Team Leaders
+- ? CI/CD pipeline operational
+- ? Documentation complete
 
 ## Team Structure
 
